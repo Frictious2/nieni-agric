@@ -17,6 +17,8 @@ route.get("/services", index.services);
 // CONTACT US
 route.get("/contact", index.contact);
 
+// CONTACT US POST REQUEST
+route.post("/contact", index.sendMail);
 
 // MODULE
 module.exports = route;
